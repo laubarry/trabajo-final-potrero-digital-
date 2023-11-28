@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lobster', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    box-shadow: 0 4px 25px -22px black;
+    z-index: 2;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo h1 b {
+    color: rgb(176, 55, 55);
+}
+
+
+.menu {
+    height: 80px;
+}
+
+.menu nav {
+    height: 100%;
+}
+
+.menu nav ul {
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+
+.menu nav ul li {
+    height: 100%;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.menu-selectivo:before {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: rgb(176, 55, 55);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menu nav ul li a {
+    color: #777777;
+    transition: color 300ms;
+}
+
+.menu nav ul li a:hover {
+    color: rgb(176, 55, 55);
+}
+
+
+.menu .text-menu-selectivo {
+    color: rgb(169, 47, 6);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Satisfy&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/public/img/portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 140vh;
+}
+
+body:before {
+    content: "";
+    width: 100%;
+    height: 200%;
+    background: rgba(130, 49, 49, 0.503);
+    position: absolute;
+}
+
+form{
+    background-color:rgba(174, 64, 64, 0.503) ;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 420px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Lobster', sans-serif;
+}
+
+form .legend1 {
+    font-size: 30px;
+    color: #EDF0F0;
+    margin-bottom: 30px;
+
+}
+
+input {
+    padding: 17px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #603452;
+    margin-bottom: 30px;
+    outline: none;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.Fecha1 {
+    color: #89879b;
+}
+
+::placeholder {
+    color: #89879B;
+}
+
+.btn {
+    background-color: #E53854;
+    border: 2px solid #E53854;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #F33F5A;
+    border: 2px solid #F33F5A;
+}
